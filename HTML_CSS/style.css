@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(143, 143, 143, 1) 50%, rgb(22, 22, 22) 100%);
+}
+
+body{
+    background-image: url("image/22800725.jpg");
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainTitle{
+    width: 150px;
+}
+
+.search_bar{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.nav_item{
+    margin: 20px;
+}
+
+img{
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgb(26, 25, 25);
+}
+
+img:hover{
+    border-radius: 7px;
+    box-shadow: 7px 7px 5px rgb(15, 15, 15);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.personnages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contents{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+p{
+    height: auto;
+    width: 600px;
+    color: white;
+    font-size: large;
+}
+
+.perso{
+    width: 220px;
+    height: 360px;
+    margin: 40px;
+
+}
+
+.perso1{
+    width: 320px;
+    height: 520x;
+    margin: 40px;
+}
